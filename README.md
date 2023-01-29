@@ -1,11 +1,11 @@
 # Desafio-Cientista-de-Dados
 Supervisionado Modelo de Classificação Multiclasse
 
-O objetivo é identificar quais máquinas apresentam potencial de falha tendo como base dados extraídos através de sensores durante o processo de manufatura.  Para isso são fornecidos dois datasets: um dataset chamado desafio_manutencao_preditiva_treino composto por 6667 linhas, 9 colunas de informação (features) e a variável a ser prevista (“failure_type”). 
+O objetivo é identificar quais máquinas apresentam potencial de falha tendo como base dados extraídos através de sensores durante o processo de manufatura. Para isso são fornecidos dois datasets: um dataset chamado desafio_manutencao_preditiva_treino composto por 6667 linhas, 9 colunas de informação (features) e a variável a ser prevista (“failure_type”). 
 
 O segundo dataset chamado de desafio_manutencao_preditiva_teste possui 3333 linhas e 8 colunas e não possui a coluna “failure_type”. Seu objetivo é prever essa coluna a partir dos dados enviados e nos enviar para avaliação dos resultados.
 
-Preparação e configuração do ambiente de instalação para o projeto de Data Science Ubuntu:
+Preparação e configuração do ambiente de instalação para o projeto de Data Science no Linux/Ubuntu:
 
 1. Instalar o Python
 
@@ -13,14 +13,14 @@ Preparação e configuração do ambiente de instalação para o projeto de Data
 
 3. Instalar o Python,Pylance,Jupyter, Jupyter Ada Kernel,Isort  as extensões no Vscode para projetos de data science com o Python.
 
-4, Criar um repositório no github
+4. Criar um repositório no github
 
 5. Clonar o repositório na máquina local
 
  git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-6. 
-sudo apt update
+6. Instalação do módulo venv e do gerenciador de pacotes Python
+sudo apt update 
 sudo apt install python3-venv python3-pip
 
 6. Criando um ambiente virtual Python 
@@ -41,7 +41,7 @@ python3 -m pip install --upgrade pip setuptools wheel
 
 python -m pip freeze > requirements.txt
 
-11.Instalndo o pandas 
+11. Instalndo o pandas 
 pip install pandas 
 
 12. Instalação matplotlib 
