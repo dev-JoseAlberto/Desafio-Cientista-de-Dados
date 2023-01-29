@@ -3,3 +3,11 @@
 
 # Ada Library Information
 *.ali
+
+#Ignore directory
+.venv/
+.vscode/
+
+# Ignore only one specific file
+/notebooks/.ipynb_checkpoints
+
