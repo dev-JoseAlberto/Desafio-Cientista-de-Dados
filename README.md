@@ -23,7 +23,7 @@ Preparação e configuração do ambiente de instalação para o projeto de Data
 sudo apt update 
 sudo apt install python3-venv python3-pip
 
-6. Criando um ambiente virtual Python 
+7. Criando um ambiente virtual Python 
 python3 -m venv .venv
 
 Ativar o ambiente virtual
@@ -48,15 +48,12 @@ pip install pandas
 
 pip install matplotlib
 
-13. Instalação scikit-learn
 
-pip install -U scikit-learn
-
-14. Instalação da ferramenta de Machine learning h2o o link logo abaixo o passo a passo
+13. Instalação da ferramenta de Machine learning h2o o link logo abaixo o passo a passo
 
 https://docs.h2o.ai/h2o/latest-stable/h2o-docs/downloading.html
 
-15. Instalação do Java Suporte com o h2o (Linux/Ubuntu)
+14. Instalação do Java Suporte com o h2o (Linux/Ubuntu)
 
 sudo apt install openjdk-19-jre-headless
 
