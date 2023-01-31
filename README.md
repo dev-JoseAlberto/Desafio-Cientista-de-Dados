@@ -42,6 +42,7 @@ python3 -m pip install --upgrade pip setuptools wheel
 python -m pip freeze > requirements.txt
 
 11. Instalndo o pandas 
+
 pip install pandas 
 
 12. Instalação matplotlib 
