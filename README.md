@@ -33,7 +33,9 @@ source .venv/bin/activate
 
 instruções nesse Link : https://code.visualstudio.com/docs/python/debugging
 
-9. Instalação Wheels componente do ecosistema Python pip/setuptools/wheel com Linux Package Managers
+9. Instalação Wheels componente do ecosistema Python 
+
+pip/setuptools/wheel com Linux Package Managers
 
 python3 -m pip install --upgrade pip setuptools wheel
 
