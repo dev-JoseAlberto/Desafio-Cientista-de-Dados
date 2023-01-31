@@ -41,7 +41,7 @@ python3 -m pip install --upgrade pip setuptools wheel
 
 python -m pip freeze > requirements.txt
 
-11. Instalndo o pandas 
+11. Instalando o pandas 
 
 pip install pandas 
 
