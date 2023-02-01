@@ -24,6 +24,7 @@ sudo apt update
 sudo apt install python3-venv python3-pip
 
 7. Criando um ambiente virtual Python 
+
 python3 -m venv .venv
 
 Ativar o ambiente virtual
